@@ -10,12 +10,10 @@ import org.junit.runner.RunWith;
         glue = {"step_defs"},
         tags = {"@Smoke"},
         plugin = {"pretty", "html:target/cucumber-report"}
-     //  format = {"pretty", "html:target/reports"}
+        format = {"pretty", "html:target/reports"}
 )
 
 public class SmokeTestRunner {
-
-
 }
 
 
