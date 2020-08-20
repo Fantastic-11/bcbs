@@ -1,3 +1,4 @@
+@Smoke
 Feature: Social Media Icon Verification
 
   Scenario: Verify 4 social media buttons are displayed
