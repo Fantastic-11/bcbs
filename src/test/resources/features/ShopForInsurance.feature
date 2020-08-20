@@ -1,3 +1,4 @@
+@Smoke
 Feature: Shop for Insurance Button
 
   As a user of BlueCrossBlueShield web site

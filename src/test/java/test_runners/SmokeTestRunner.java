@@ -8,9 +8,10 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"classpath:features"},
         glue = {"step_defs"},
-        tags = {"@Smoke"},
+        tags = {"@temp"},
+
         plugin = {"pretty", "html:target/cucumber-report"}
-        format = {"pretty", "html:target/reports"}
+       // format = {"pretty", "html:target/reports"}
 )
 
 public class SmokeTestRunner {
