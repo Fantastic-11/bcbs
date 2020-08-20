@@ -1,4 +1,4 @@
-@temp
+@smoke
 Feature: Validation of Careers option
 
   Background: Navigating to BCBS
